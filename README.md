@@ -2,7 +2,7 @@
 bw6-validation-maven-plugin is a maven plugin for performing validation of TIBCO BW 6.x version projects during build process.
 It makes use of bwdesign utility for the execution part. It first creates a workspace and imports the application modules in the workspace using 
 bwdesign's system:import. Finally it calls system:validate to perform validation of the workspace and report any validation errors.
-
+Test
 Pre-requisites:
 - JAVA_HOME should be set and available in the path. This can be confirmed by running java -version from command prompt.
 - Maven should be installed on the machine. M2_HOME should be set. The maven executable should be available in the path. This can be confirmed by running
